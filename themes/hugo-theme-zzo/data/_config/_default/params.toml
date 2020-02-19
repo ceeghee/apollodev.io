@@ -1,0 +1,52 @@
+logoText = "Zzo"
+description = "The Zzo theme for Hugo example site."
+custom_css = ["css/custom.css", "scss/custom.scss"]
+custom_js = ["js/custom.js"]
+myname = "zzossig"
+whoami = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet cursus massa. Vestibulum eu posuere est. Suspendisse erat purus, mollis in leo quis, hendrerit fringilla felis."
+
+# body
+enableBreadcrumb = true
+enablePhotoSwipe = true
+enableSearch = true
+enableMark = true
+enableGoToTop = true
+enableWhoami = true
+summaryShape = "card" # card, classic, compact
+archiveGroupByDate = "2006-01" # "2006-01": group by month, "2006": group by year
+
+# sidebar
+enableSidebar = true
+enableSidebarTags = true
+enableSidebarSeries = true
+enableSidebarCategories = true
+enableToc = true
+itemsPerCategory = 5
+enableSideSubscribe = false
+
+# footer
+showPoweredBy = true
+showFeedLinks = true
+showSocialLinks = true
+enableLangChange = true
+enableThemeChange = true
+themeOptions = ["dark", "light", "hacker", "solarized", "custom"]
+
+[marketing]
+  google_analytics = ""
+  google_tag_manager = ""
+
+[socialOptions]
+  email = "mailto:your@email.com"
+  facebook = "http://example.org/"
+  twitter = "http://example.org/"
+  github = "http://example.org/"
+  stack-overflow = ""
+  instagram = ""
+  google-plus = ""
+  youtube = ""
+  medium = ""
+  tumblr = ""
+  linkedin = ""
+  pinterest = ""
+  stack-exchange = ""

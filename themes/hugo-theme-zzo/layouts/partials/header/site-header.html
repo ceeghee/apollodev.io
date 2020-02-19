@@ -1,0 +1,15 @@
+{{ if .IsHome }}
+<header class="header">
+    <div class="header__whoami">
+		<img width="50" height="50" src="{{ "/images/whoami/pic.jpg" | relURL }}" 
+		style="border-radius: 40px;"
+		alt="{{ if .Site.Params.myname }}{{ .Site.Params.myname }}{{ end }}" class="header__whoami--image">
+		<span class="h6">Personal blog by Goodluck Ekene</span>
+        <!-- <div class="header__whoami--name h6">
+            Personal blog by Goodluck Ekene
+        </div> -->
+        <div class="header__whoami--desc p2">
+        </div>
+    </div>
+</header>
+{{ end }}
