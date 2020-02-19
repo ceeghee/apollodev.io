@@ -1,0 +1,24 @@
+baseURL = "http://example.org/"
+title = "Goodluck Ekene's Dev Blog"
+theme = "hugo-theme-zzo"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+hasCJKLanguage = true
+
+summaryLength = 70
+
+googleAnalytics = ""
+copyright = "© All articles written with ❤ by Goodluck Ekene"
+timeout = 10000
+enableEmoji = true
+paginate = 10
+rssLimit = 100
+
+[outputs]
+  home = [ "HTML", "RSS", "JSON" ]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"

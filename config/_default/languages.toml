@@ -1,0 +1,9 @@
+[en]
+  title = "Goodluck Ekene's Dev Blog"
+  languageName = "English"
+  weight = 1
+
+[ko]
+  title = "Goodluck Ekene's Dev Blog"
+  languageName = "한국어"
+  weight = 2

@@ -1,0 +1,51 @@
+logoText = "Goodluck Ekene"
+description = "Goodluck Ekene's Personal Dev Blog"
+custom_css = ["css/custom.css", "css/custom.css"]
+custom_js = ["js/custom.js"]
+myname = "Goodluck Ekene"
+whoami = ""
+
+# body
+enableBreadcrumb = true
+enablePhotoSwipe = true
+enableSearch = true
+enableMark = true
+enableGoToTop = true
+enableWhoami = true
+summaryShape = "card" # card, classic, compact
+archiveGroupByDate = "2006-01" # "2006-01": group by month, "2006": group by year
+
+# sidebar
+enableSidebar = true
+enableSidebarTags = true
+enableSidebarSeries = true
+enableSidebarCategories = true
+enableToc = true
+itemsPerCategory = 5
+enableSideSubscribe = false
+
+# comment
+enableComment = true
+disqus_shortname = ""
+commento = false
+
+# footer
+showPoweredBy = true
+showFeedLinks = false
+showSocialLinks = true
+enableLangChange = true
+enableThemeChange = true
+themeOptions = ["dark", "light", "hacker", "solarized"]
+[socialOptions]
+  email = "mailto:goodluck.ekene@gmail.com"
+  twitter = "https://twitter.com/goodluck_ekene"
+  github = "https://github.com/ceeghee"
+  stack-overflow = ""
+  instagram = ""
+  google-plus = ""
+  youtube = ""
+  medium = ""
+  tumblr = ""
+  linkedin = ""
+  pinterest = ""
+  stack-exchange = ""
